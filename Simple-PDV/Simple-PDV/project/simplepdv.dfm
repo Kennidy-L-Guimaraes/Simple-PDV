@@ -1,14 +1,23 @@
-object Form1: TForm1
+object FrmSimplePDV: TFrmSimplePDV
   Left = 0
   Top = 0
-  Caption = 'Form1'
-  ClientHeight = 464
-  ClientWidth = 822
+  Caption = 'Simple-PDV'
+  ClientHeight = 441
+  ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poMainFormCenter
   TextHeight = 15
+  object Panel1: TPanel
+    Left = 216
+    Top = 112
+    Width = 185
+    Height = 41
+    Caption = 'PnlBackgroundPanel'
+    TabOrder = 0
+  end
 end
